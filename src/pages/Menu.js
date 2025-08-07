@@ -147,7 +147,7 @@ const Menu = () => {
                     <h4 className="title">{item.name}</h4>
                     <p className="description">{item.description}</p>
                     <p className="price">{item.price}</p>
-                    <Link to="/menu-details" className="theme-btn style-two">
+                    <Link to="/contact" className="theme-btn style-two">
                       Order Now
                     </Link>
                   </div>

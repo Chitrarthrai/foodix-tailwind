@@ -72,7 +72,7 @@ const Home = () => {
             <div className="col-md-6">
               {/* Category Button */}
               <div className="category-button float-md-end mb-50 wow fadeInDown">
-                <Link to="/menu-v3" className="theme-btn style-two">
+                <Link to="/menu" className="theme-btn style-two">
                   See More
                 </Link>
               </div>
@@ -81,7 +81,7 @@ const Home = () => {
           <div className="row">
             <div className="col-xl-3 col-md-6 col-sm-12">
               {/* Category Item */}
-              <Link to="/menu-v3" className="iconic-box style-four mb-40 wow fadeInUp">
+              <Link to="/menu" className="iconic-box style-four mb-40 wow fadeInUp">
                 <div className="icon">
                   <i className="flaticon-burger"></i>
                 </div>
@@ -93,7 +93,7 @@ const Home = () => {
             </div>
             <div className="col-xl-3 col-md-6 col-sm-12">
               {/* Category Item */}
-              <Link to="/menu-v3" className="iconic-box style-four mb-40 wow fadeInDown">
+              <Link to="/menu" className="iconic-box style-four mb-40 wow fadeInDown">
                 <div className="icon">
                   <i className="flaticon-sandwich-1"></i>
                 </div>
@@ -105,7 +105,7 @@ const Home = () => {
             </div>
             <div className="col-xl-3 col-md-6 col-sm-12">
               {/* Category Item */}
-              <Link to="/menu-v3" className="iconic-box style-four mb-40 wow fadeInUp">
+              <Link to="/menu" className="iconic-box style-four mb-40 wow fadeInUp">
                 <div className="icon">
                   <i className="flaticon-shrimp"></i>
                 </div>
@@ -117,7 +117,7 @@ const Home = () => {
             </div>
             <div className="col-xl-3 col-md-6 col-sm-12">
               {/* Category Item */}
-              <Link to="/menu-v3" className="iconic-box style-four mb-40 wow fadeInDown">
+              <Link to="/menu" className="iconic-box style-four mb-40 wow fadeInDown">
                 <div className="icon">
                   <i className="flaticon-pasta"></i>
                 </div>
@@ -216,7 +216,7 @@ const Home = () => {
                   <div className="offer-countdown">
                     <div className="simply-countdown"></div>
                   </div>
-                  <Link to="/menu-details" className="theme-btn style-one">
+                  <Link to="/menu" className="theme-btn style-one">
                     Read More
                   </Link>
                 </div>
@@ -444,7 +444,7 @@ const Home = () => {
                     </span>
                   </div>
                   <h4 className="title">
-                    <Link to="/blog-details">
+                    <Link to="/about">
                       Crispy Stovetop Roosted Red Potatoes Foods
                     </Link>
                   </h4>
@@ -472,7 +472,7 @@ const Home = () => {
                     </span>
                   </div>
                   <h4 className="title">
-                    <Link to="/blog-details">
+                    <Link to="/about">
                       How to make jimmy soft boiled eggs at home
                     </Link>
                   </h4>
@@ -500,7 +500,7 @@ const Home = () => {
                     </span>
                   </div>
                   <h4 className="title">
-                    <Link to="/blog-details">
+                    <Link to="/about">
                       Traditional soft pretzels with sweet beer cheese
                     </Link>
                   </h4>
