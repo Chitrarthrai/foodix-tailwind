@@ -78,7 +78,7 @@ const Header = () => {
                 </div>
               </div>
               <div className="cart-button">
-                <Link to="/checkout" className="theme-btn style-one">
+                <Link to="/contact" className="theme-btn style-one">
                   Proceed to checkout
                 </Link>
               </div>
@@ -114,52 +114,17 @@ const Header = () => {
                   {/* Main Menu */}
                   <nav className={`main-menu ${isMenuOpen ? 'menu-on' : ''}`}>
                     <ul>
-                      <li className="menu-item has-children">
-                        <a href="#">Home</a>
-                        <ul className="sub-menu">
-                          <li><Link to="/">Home Restaurant</Link></li>
-                          <li><Link to="/beef">Home Beef</Link></li>
-                          <li><Link to="/burger">Home Burger</Link></li>
-                          <li><Link to="/pizza">Home Pizza</Link></li>
-                          <li><Link to="/sushi">Home Sushi</Link></li>
-                        </ul>
+                      <li className="menu-item">
+                        <Link to="/">Home</Link>
                       </li>
-                      <li className="menu-item has-children">
-                        <a href="#">Menu</a>
-                        <ul className="sub-menu">
-                          <li><Link to="/menu-v1">Menu List One</Link></li>
-                          <li><Link to="/menu-v2">Menu List Two</Link></li>
-                          <li><Link to="/menu-v3">Menu Grid</Link></li>
-                          <li><Link to="/menu-details">Menu Details</Link></li>
-                        </ul>
+                      <li className="menu-item">
+                        <Link to="/about">About</Link>
                       </li>
-                      <li className="menu-item has-children">
-                        <a href="#">Pages</a>
-                        <ul className="sub-menu">
-                          <li><Link to="/about">About Us</Link></li>
-                          <li><Link to="/history">Our history</Link></li>
-                          <li><Link to="/chefs">Our Chefs</Link></li>
-                          <li><Link to="/gallery">Our Gallery</Link></li>
-                          <li><Link to="/faq">Faqs</Link></li>
-                          <li><Link to="/404">Error 404</Link></li>
-                        </ul>
+                      <li className="menu-item">
+                        <Link to="/menu">Menu</Link>
                       </li>
-                      <li className="menu-item has-children">
-                        <a href="#">Shop</a>
-                        <ul className="sub-menu">
-                          <li><Link to="/products">Our Shop</Link></li>
-                          <li><Link to="/menu-details">Product Details</Link></li>
-                          <li><Link to="/cart">Cart</Link></li>
-                          <li><Link to="/checkout">Checkout</Link></li>
-                        </ul>
-                      </li>
-                      <li className="menu-item has-children">
-                        <a href="#">Blog</a>
-                        <ul className="sub-menu">
-                          <li><Link to="/blog-grid">Blog Grid</Link></li>
-                          <li><Link to="/blog-classic">Blog Standard</Link></li>
-                          <li><Link to="/blog-details">Blog Details</Link></li>
-                        </ul>
+                      <li className="menu-item">
+                        <Link to="/gallery">Gallery</Link>
                       </li>
                       <li className="menu-item">
                         <Link to="/contact">Contact</Link>
